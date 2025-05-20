@@ -16,10 +16,10 @@ export const updateCustomer = (updates: {
   });
 };
 
-function httpFetch<R, T>(request: R, response: (d: R) => T): Promise<T> {
+function httpFetch<R, T>(request: R, response: (d: R) => T, canFail = false): Promise<T> {
   return new Promise((resolve, reject) =>
     setTimeout(() => {
-      if (Math.random() > 0.9) {
+      if (canFail && Math.random() > 0.5) {
         reject("500 Unexpected server error");
       } else {
         const result = response(request);
