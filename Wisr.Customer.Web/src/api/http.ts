@@ -1,13 +1,13 @@
 import { CustomerResponse, CustomerResponseAccount } from "./customer";
 
-export const getCustomer = () => {
+export const getCustomer = (): Promise<CustomerResponse> => {
   return httpFetch(null, () => customer);
 };
 
 export const updateCustomer = (updates: {
   firstName: string;
   lastName: string;
-}) => {
+}): Promise<CustomerResponse> => {
   return httpFetch(updates, (u) => {
     customer.firstName = u.firstName;
     customer.lastName = u.lastName;

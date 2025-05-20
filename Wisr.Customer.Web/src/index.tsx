@@ -59,9 +59,5 @@ function setupLogger(level: "log" | "warn" | "error") {
   };
 }
 
-
 const root = createRoot(main);
 root.render(<App />);
-
-
-throw "AAA";

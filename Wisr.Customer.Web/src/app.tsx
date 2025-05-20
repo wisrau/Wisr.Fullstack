@@ -26,8 +26,6 @@ export const App: React.FunctionComponent = () => {
           </button>
         </form>
       </div>
-
-      {modalOpen && <Modal onClose={() => setModalOpen(false)}><h2>Success!</h2></Modal>}
     </section>
   );
 
