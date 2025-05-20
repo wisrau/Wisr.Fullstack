@@ -1,0 +1,18 @@
+.profile {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 10px;
+}
+
+.profile h1 {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: normal;
+}
+
+.profile span {
+  font-weight: bold;
+}

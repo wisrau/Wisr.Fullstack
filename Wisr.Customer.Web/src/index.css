@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eee;
+}
+
+.form-error {
+  color: red;
+  border: 1px solid red;
+  background: #fdd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #eee;
+  cursor: pointer;
+}

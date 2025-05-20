@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wisr.Customer.Api", "Wisr.Customer.Api\Wisr.Customer.Api.csproj", "{52840385-50E8-4A91-92E8-E6FD2FD4537E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wisr.Customer.Web", "Wisr.Customer.Web", "{6A1C170A-6C98-4FE7-9C6C-D7930384B54E}"
+	ProjectSection(SolutionItems) = preProject
+		Wisr.Customer.Web\package-lock.json = Wisr.Customer.Web\package-lock.json
+		Wisr.Customer.Web\package.json = Wisr.Customer.Web\package.json
+		Wisr.Customer.Web\tsconfig.json = Wisr.Customer.Web\tsconfig.json
+		Wisr.Customer.Web\webpack.config.js = Wisr.Customer.Web\webpack.config.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D1AD050-BEA5-4DAF-8B78-E6B8F6447EDA}"
+	ProjectSection(SolutionItems) = preProject
+		Wisr.Customer.Web\src\index.tsx = Wisr.Customer.Web\src\index.tsx
+		Wisr.Customer.Web\src\form-helper.ts = Wisr.Customer.Web\src\form-helper.ts
+		Wisr.Customer.Web\src\app.tsx = Wisr.Customer.Web\src\app.tsx
+		Wisr.Customer.Web\src\app.css = Wisr.Customer.Web\src\app.css
+		Wisr.Customer.Web\src\index.css = Wisr.Customer.Web\src\index.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{D95C5D8F-87AD-4664-B553-3495A241A395}"
+	ProjectSection(SolutionItems) = preProject
+		Wisr.Customer.Web\src\components\account.css = Wisr.Customer.Web\src\components\account.css
+		Wisr.Customer.Web\src\components\account.tsx = Wisr.Customer.Web\src\components\account.tsx
+		Wisr.Customer.Web\src\components\modal.css = Wisr.Customer.Web\src\components\modal.css
+		Wisr.Customer.Web\src\components\modal.tsx = Wisr.Customer.Web\src\components\modal.tsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{FD03D6FA-2727-4918-9CD3-CDC85F08AD72}"
+	ProjectSection(SolutionItems) = preProject
+		Wisr.Customer.Web\src\api\customer.ts = Wisr.Customer.Web\src\api\customer.ts
+		Wisr.Customer.Web\src\api\http.ts = Wisr.Customer.Web\src\api\http.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52840385-50E8-4A91-92E8-E6FD2FD4537E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52840385-50E8-4A91-92E8-E6FD2FD4537E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52840385-50E8-4A91-92E8-E6FD2FD4537E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52840385-50E8-4A91-92E8-E6FD2FD4537E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1AB3C0-2ADD-41A1-A2EE-EFA5060DC948}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D1AD050-BEA5-4DAF-8B78-E6B8F6447EDA} = {6A1C170A-6C98-4FE7-9C6C-D7930384B54E}
+		{D95C5D8F-87AD-4664-B553-3495A241A395} = {7D1AD050-BEA5-4DAF-8B78-E6B8F6447EDA}
+		{FD03D6FA-2727-4918-9CD3-CDC85F08AD72} = {7D1AD050-BEA5-4DAF-8B78-E6B8F6447EDA}
+	EndGlobalSection
+EndGlobal
